@@ -8,9 +8,8 @@ This solver works for any puzzle size although 4-puzzles and up can take a lot o
 * Pygame
 
 # Usage
-If you simply launch the n-puzzle program you will get the solving of a 3-puzzle that has been scrambled with 100 random moves. 
-By default, the used heuristic function will be the Manhattan distance. 
-However, you can change a lot of parameters thanks to the implemented options:
+If launch the n-puzzle program without arguments you will get the solving of a 3-puzzle that has been scrambled with 100 random moves. 
+By default, the used heuristic function will be the Manhattan distance however, you can change a lot of parameters thanks to the implemented options:
 ```
 $> python n-puzzle.py -h
 usage: n-puzzle.py [-h] [-m file] [-vi] [-vb] [-g size] [-i number]
