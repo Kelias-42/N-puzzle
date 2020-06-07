@@ -12,7 +12,7 @@ If you simply launch the n-puzzle program you will get the solving of a 3-puzzle
 By default, the used heuristic function will be the Manhattan distance. 
 However, you can change a lot of parameters thanks to the implemented options:
 ```
-$> python n-puzzle.py
+$> python n-puzzle.py -h
 usage: n-puzzle.py [-h] [-m file] [-vi] [-vb] [-g size] [-i number]
                    [-gr | -un] [-t]
                    [-hf {Manhattan,Euclidian,Tiles out-of-place}]
