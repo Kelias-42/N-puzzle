@@ -32,8 +32,9 @@ optional arguments:
   -hf {Manhattan,Euclidian,Tiles out-of-place}, --heuristic {Manhattan,Euclidian,Tiles out-of-place}
                         Heuristic function choice, (default: Manhattan)
 ```
-If you want to solve your own puzzle, be sure to follow the same format as in resources/grid.txt (the first number is the size of the puzzle)
+If you want to solve your own puzzle, be sure to follow the same format as in resources/grid.txt (the first number is the size of the puzzle).
 Note that the defined solved state for this program is in shape of a spiral with 0 representing the empy space.
+
 So for example a 3-puzzle's solved state is:
 ```
 1 2 3
