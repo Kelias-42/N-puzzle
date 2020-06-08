@@ -1,7 +1,10 @@
 # N-puzzle
 N-puzzle solver using A* with a visualizer of the generated solution.
 This solver works for any puzzle size although 4-puzzles and up can take a lot of time to be completed.
+![](resources/visualizer.gif)
+This is what the visualizer looks like.
 
+You can press R to pause/play and left/right arrow keys to navigate move by move.
 # Required packages
 * Numpy
 * Matplotlib
