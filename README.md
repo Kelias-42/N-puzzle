@@ -44,3 +44,7 @@ So for example a 3-puzzle's solved state is:
 8 0 4
 7 6 5
 ```
+# Credit
+This project was made by:
+* Julien Dumay (https://github.com/ChokMania), main tasks: argument parsing and visualizer
+* myself, Aleksi Gautier (https://github.com/Kelias-42), main tasks: grid generation and solving algorithm
