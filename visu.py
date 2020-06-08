@@ -13,7 +13,7 @@ class NPuzzle:
 		self.tilespos = [(x*(ts+ms)+ms,y*(ts+ms)+ms) for y in range(gs[1]) for x in range(gs[0])]
 		self.tilesPOS = {(x,y):(x*(ts+ms)+ms,y*(ts+ms)+ms) for y in range(gs[1]) for x in range(gs[0])}
 		self.prev = None
-		self.resolution, self.i, self.reverse, self.next = 0, 1, 0, 0
+		self.resolution, self.i, self.reverse, self.next = 1, 1, 0, 0
 		self.speed_slide = 450
 		
 		self.images = []
