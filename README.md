@@ -1,5 +1,5 @@
 # N-puzzle
-N-puzzle solver using A* with a visualizer of the generated solution.
+N-puzzle solver using A* algorithm with a visualizer of the generated solution.
 This solver works for any puzzle size although 4-puzzles and up can take a lot of time to be completed.
 
 ![](resources/visualizer.gif)
