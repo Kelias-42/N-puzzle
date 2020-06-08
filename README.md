@@ -4,7 +4,8 @@ This solver works for any puzzle size although 4-puzzles and up can take a lot o
 
 ![](resources/visualizer.gif)
 
-> This is what the visualizer looks like.
+> This is what the visualizer looks like. Note that the empty space of the puzzle is not represented.
+
 > You can press R to pause/play and left/right arrow keys to navigate move by move.
 # Required packages
 * Numpy
