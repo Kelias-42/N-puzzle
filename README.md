@@ -13,7 +13,7 @@ This solver works for any puzzle size although 4-puzzles and up can take a lot o
 * Pygame
 
 # Usage
-If launch the n-puzzle program without arguments you will get the solving of a 3-puzzle that has been scrambled with 100 random moves. 
+If you launch the n-puzzle program without arguments you will get the solving of a 3-puzzle that has been scrambled with 100 random moves. 
 By default, the used heuristic function will be the Manhattan distance however, you can change a lot of parameters thanks to the implemented options:
 ```
 $> python n-puzzle.py -h
@@ -37,7 +37,7 @@ optional arguments:
                         Heuristic function choice, (default: Manhattan)
 ```
 If you want to solve your own puzzle, be sure to follow the same format as in resources/grid.txt (the first number is the size of the puzzle).
-Note that the defined solved state for this program is in shape of a spiral with 0 representing the empy space.
+Note that the defined solved state for this program is in shape of a spiral with 0 representing the empty space.
 So for example a 3-puzzle's solved state is:
 ```
 1 2 3
